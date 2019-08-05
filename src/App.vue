@@ -3,7 +3,6 @@
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <h2>&#9996;</h2>
     <h1>Sup Cam!</h1>
-    <span style='font-size:100px;'>&#129500;&#127999;</span>
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
 </template>
