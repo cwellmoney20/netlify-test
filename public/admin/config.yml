@@ -6,7 +6,7 @@ media_folder: "images/uploads" # Media files will be stored in the repo under im
 
 collections:
   - name: "cabinets"
-  folder: "images/cabinets"
+  folder: "_images/cabinets"
   identifier_field: name
   create: true
   fields:
