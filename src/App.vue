@@ -31,3 +31,17 @@ h2 {
   font-size: 80px;
 }
 </style>
+
+<script>
+import axios from 'axios'
+export default {
+  mounted() {
+    console.log(axios)
+    axios.get('/.netlify/functions/vue-ssr').then(response => {
+      console.log(response)
+    }).catch(error => {
+      console.log(error)
+    })
+  }
+}
+</script>
